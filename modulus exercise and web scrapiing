@@ -15,4 +15,4 @@ response = requests.get(url)
 print(response)
 #200 was returned meaning it was successful
 
-response
+print(response.text)
