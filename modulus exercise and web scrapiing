@@ -1,0 +1,18 @@
+
+#beginner error handling
+
+""" try:
+    print("a"/3)
+except:
+    print("failed")
+    pass """
+
+import pandas as pd
+import requests
+url = "http://finance.yahoo.com/quote/AAPL?p=AAPL"
+
+response = requests.get(url)
+print(response)
+#200 was returned meaning it was successful
+
+
